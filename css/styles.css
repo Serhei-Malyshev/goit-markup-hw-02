@@ -1,0 +1,7 @@
+/* ------------HEADER------------- */
+.hover_focus:hover {
+	color: blueviolet;
+}
+.hover_focus:focus {
+	color: brown;
+}
