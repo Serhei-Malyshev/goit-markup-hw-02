@@ -1,7 +1,31 @@
+/* создание палитры цветов */
+
+/* Основной цвет текста - #212121
+Вторичный цвет текста - #757575 
+Основной цвет фона - #E5E5E5
+Вторичный цвет фона - белый
+Основной интерактивный цвет - #2196F3 */
+
+/* Убираем точки (маркеры <ul>) */
+
+/* ------------BODY--------------- */
+
+body {
+	background-color: #e5e5e5;
+}
+/* убираем маркеры */
+.list {
+	list-style: none;
+}
+
 /* ------------HEADER------------- */
-.hover_focus:hover {
+.header-hover_focus:hover,
+.header-hover_focus:focus {
 	color: blueviolet;
 }
-.hover_focus:focus {
-	color: brown;
+.header-hover_focus:active {
+	color: rgb(18, 158, 37);
 }
+
+/* hover - применяеться к любым элементам
+focus и active - только к интерактивным (кнопки, ссылки) */
