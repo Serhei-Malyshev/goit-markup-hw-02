@@ -6,7 +6,18 @@
 Вторичный цвет фона - белый
 Основной интерактивный цвет - #2196F3 */
 
+/* Проведенные работы: */
 /* Убираем точки (маркеры <ul>) */
+/* Создаем кастомные стили - :root */
+/* создаем стили кнопок */
+
+/* ------------:ROOT--------------- */
+:root {
+	--primery-text-color: #212121;
+	--title-text-color: #212121;
+	--inter-text-color: #2196f3;
+	--fon-color: #ffffff;
+}
 
 /* ------------BODY--------------- */
 
@@ -18,14 +29,32 @@ body {
 	list-style: none;
 }
 
+/* Общие оформление секций */
+
+.text-title {
+	color: var(--primery-text-color);
+}
+
 /* ------------HEADER------------- */
 .header-hover_focus:hover,
 .header-hover_focus:focus {
-	color: blueviolet;
+	color: #000000;
 }
 .header-hover_focus:active {
-	color: rgb(18, 158, 37);
+	color: #757575;
 }
-
+/* кнопки */
+.button {
+	color: var(--inter-text-color);
+	background: var(--fon-color);
+}
+.button.primery {
+	color: var(--inter-text-color);
+	background-color: var(--fon-color);
+}
+.button.secondary {
+	color: var(--fon-color);
+	background-color: var(--inter-text-color);
+}
 /* hover - применяеться к любым элементам
 focus и active - только к интерактивным (кнопки, ссылки) */
