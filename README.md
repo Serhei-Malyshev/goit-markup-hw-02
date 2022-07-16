@@ -18,6 +18,8 @@
 
 Вторичный цвет текста - #757575
 
+Цвет текста в Футере с прозрачностью - color: rgba(255, 255, 255, 0.6);
+
 3. создание палитры цветов сайта:
 
 Основной цвет фона - #E5E5E5
@@ -128,6 +130,10 @@ text-align: center;
 
 color: var(--secondary-text-color);
 
+font-size: 14px;
+
+line-height: 1.7;
+
 }
 
 9. создаем стили для интерактивных кнопок (фильтра):
@@ -160,7 +166,7 @@ background: var(--inter-text-color);
 
 color: var(--inter-text-color);
 
-background-color: var(--fon-color);
+background-color: var(--fon-button-color);
 
 }
 
@@ -184,19 +190,23 @@ background-color: var(--inter-text-color);
 
 <button type="button" class="button secondary">Неактивная кнопка</button>
 
-9. Работаем с заголовком в HERO отдельно:
+9. Работаем с блоком HERO отдельно:
+
+9.1 Задаем стиль текста заголовка:
+
+в html:
+
+<h1 class="title-text-hero">
+
+в css:
 
 Задаем цвет текста:
 
-color: var(--fon-color);
+color: color: #ffffff;
 
-Задаем цвет фона:
+Задаем жирность текста:
 
-background-color: var(--hero-footer-text-color);
-
-Задаем жирность:
-
-font-weight: 400;
+font-weight: 900;
 
 Задаем font-size из Фигмы:
 
@@ -210,6 +220,38 @@ line-height: 1.4; (line-height: 60px делим на font-size: 44px = 1.4)
 
 text-align: center;
 
-10. Создаем кнопку "Заказать услугу":
+9.2 Задаем фон:
+
+в html:
+
+<section class="fon-hero">
+
+в css:
+
+.fon-hero
+
+{
+
+background-color: var(--hero-fon-color);
+
+}
+
+9.3 Создаем кнопку "Заказать услугу":
 
 <button type="button" class="button primary">Активная кнопка</button>
+
+11. Изменяем фон футера:
+
+в html:
+
+<footer class="footer-fon">
+
+в css:
+
+.footer-fon
+
+{
+
+background-color: var(--footer-fon-color);
+
+}

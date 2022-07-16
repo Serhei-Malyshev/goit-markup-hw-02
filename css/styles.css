@@ -5,7 +5,8 @@
 Основной цвет фона - #E5E5E5
 Вторичный цвет фона - #FFFFFF
 Основной интерактивный цвет - #2196F3 
-Цвет HERO и футера - #2F303A */
+Цвет HERO и футера - #2F303A 
+Цвет кнопок фильтра - #F5F4FA */
 
 /* --------------------------Проведенные работы: --------------------------*/
 /* создание css */
@@ -21,7 +22,10 @@
 	--title-text-color: #212121;
 	--inter-text-color: #2196f3;
 	--fon-color: #ffffff;
-	--hero-footer-text-color: #2f303a;
+	--hero-fon-color: #2f303a;
+	--footer-fon-color: #2f303a;
+	--footer-text-color: rgba(255, 255, 255, 0.6);
+	--fon-button-color: #f5f4fa;
 }
 
 /* --------------BODY--------------- */
@@ -76,7 +80,7 @@ body {
 
 .button.primery {
 	color: var(--inter-text-color);
-	background-color: var(--fon-color);
+	background-color: var(--fon-button-color);
 }
 .button.secondary {
 	color: var(--fon-color);
@@ -86,13 +90,20 @@ body {
 /* ----------------------HERO---------------------- */
 
 .title-text-hero {
-	color: var(--fon-color);
-	background-color: var(--hero-footer-text-color);
+	color: #ffffff;
 	font-family: "Roboto";
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.4;
 	text-align: center;
+}
+.fon-hero {
+	background-color: var(--hero-fon-color);
+}
+
+/* -------------FOOTER------------ */
+.footer-fon {
+	background-color: var(--footer-fon-color);
 }
 
 /* hover - применяеться к любым элементам
