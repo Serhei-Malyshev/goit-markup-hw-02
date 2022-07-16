@@ -12,11 +12,13 @@
 
 </head>
 
-2. создание палитры цветов:
+2. создание палитры цветов текста:
 
 Основной цвет текста - #212121
 
 Вторичный цвет текста - #757575
+
+3. создание палитры цветов сайта:
 
 Основной цвет фона - #E5E5E5
 
@@ -26,11 +28,11 @@
 
 Основной интерактивный цвет - #2196F3
 
-3. создание списка стилей текста
+4. создание списка стилей текста
 
 Roboto - 400, 500, 700, 900 Raleway - 700
 
-4. задаем общие шрифты в index.html <head> и body (css) с сайта https://fonts.google.com/
+5. задаем общие шрифты в index.html <head> и body (css) с сайта https://fonts.google.com/
 
 в html:
 
@@ -54,7 +56,7 @@ body {
 
     font-family: "Roboto", sans-serif;}
 
-5. Создаем :root - кастомные стили в css:
+6. Создаем :root - кастомные стили в css:
 
 в css (1):
 
@@ -84,7 +86,7 @@ color: var(--name-element-color);
 
 class="element"
 
-6. Убираем точки (маркеры <ul>):
+7. Убираем точки (маркеры <ul>):
 
 в <head>:
 
@@ -100,7 +102,7 @@ list-style: none;
 
 }
 
-9. создаем стили для интерактивных кнопок (фильтра):
+8. создаем стили для интерактивных кнопок (фильтра):
 
 в css:
 
@@ -154,4 +156,28 @@ background-color: var(--inter-text-color);
 
 <button type="button" class="button secondary">Неактивная кнопка</button>
 
-10. создаем фильтр (радиокнопки) (навигация по сайту)
+9. Работаем с заголовком в HERO отдельно:
+
+Задаем цвет текста:
+
+color: var(--fon-color);
+
+Задаем цвет фона:
+
+background-color: var(--hero-footer-text-color);
+
+Задаем жирность:
+
+font-weight: 400;
+
+Задаем font-size из Фигмы:
+
+font-size: 44px;
+
+Задаем line-height из Фигмы, но используем множитель:
+
+line-height: 1.4; (line-height: 60px делим на font-size: 44px = 1.4)
+
+10. Создаем кнопку "Заказать услугу":
+
+<button type="button" class="button primary">Активная кнопка</button>

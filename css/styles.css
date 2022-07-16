@@ -4,7 +4,8 @@
 Вторичный цвет текста - #757575 
 Основной цвет фона - #E5E5E5
 Вторичный цвет фона - #FFFFFF
-Основной интерактивный цвет - #2196F3 */
+Основной интерактивный цвет - #2196F3 
+Цвет HERO и футера - #2F303A */
 
 /* --------------------------Проведенные работы: --------------------------*/
 /* создание css */
@@ -19,6 +20,7 @@
 	--title-text-color: #212121;
 	--inter-text-color: #2196f3;
 	--fon-color: #ffffff;
+	--hero-footer-text-color: #2f303a;
 }
 
 /* --------------BODY--------------- */
@@ -33,7 +35,7 @@ body {
 	list-style: none;
 }
 
-/* Общие оформление секций */
+/* Общие оформление заголовков в секциях */
 
 .text-title {
 	color: var(--primery-text-color);
@@ -66,6 +68,17 @@ body {
 .button.secondary {
 	color: var(--fon-color);
 	background-color: var(--inter-text-color);
+}
+
+/* ----------------------HERO---------------------- */
+
+.title-text-hero {
+	color: var(--fon-color);
+	background-color: var(--hero-footer-text-color);
+	font-family: "Roboto";
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
 }
 
 /* hover - применяеться к любым элементам
