@@ -47,11 +47,18 @@ body {
 .header-hover_focus:active {
 	color: #757575;
 }
+
 /* кнопки */
 .button {
 	color: var(--inter-text-color);
 	background: var(--fon-color);
 }
+
+.button-hover:hover {
+	color: var(--fon-color);
+	background: var(--inter-text-color);
+}
+
 .button.primery {
 	color: var(--inter-text-color);
 	background-color: var(--fon-color);
@@ -60,5 +67,6 @@ body {
 	color: var(--fon-color);
 	background-color: var(--inter-text-color);
 }
+
 /* hover - применяеться к любым элементам
 focus и active - только к интерактивным (кнопки, ссылки) */

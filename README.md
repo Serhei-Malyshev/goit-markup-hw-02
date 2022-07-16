@@ -100,4 +100,58 @@ list-style: none;
 
 }
 
-7. создаем стили кнопок:
+9. создаем стили для интерактивных кнопок (фильтра):
+
+в css:
+
+.button - общий стиль
+
+{
+
+color: var(--inter-text-color);
+
+background: var(--fon-color);
+
+}
+
+.button-hover:hover - выделение при наводке курсора
+
+{
+
+color: var(--fon-color);
+
+background: var(--inter-text-color);
+
+}
+
+.button.primery - выделение при активности
+
+{
+
+color: var(--inter-text-color);
+
+background-color: var(--fon-color);
+
+}
+
+.button.secondary - свободное состояние
+
+{
+
+color: var(--fon-color);
+
+background-color: var(--inter-text-color);
+
+}
+
+в html:
+
+<button type="button" class="button">Кнопка с общим стилем</button>
+
+<button type="button" class="button button-hover">Кнопка с общим стилем и выделением при наводке</button></li>
+
+<button type="button" class="button primary">Активная кнопка</button>
+
+<button type="button" class="button secondary">Неактивная кнопка</button>
+
+10. создаем фильтр (радиокнопки) (навигация по сайту)
