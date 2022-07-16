@@ -17,6 +17,7 @@
 /* --------------:ROOT--------------- */
 :root {
 	--primery-text-color: #212121;
+	--secondary-text-color: #757575;
 	--title-text-color: #212121;
 	--inter-text-color: #2196f3;
 	--fon-color: #ffffff;
@@ -35,11 +36,23 @@ body {
 	list-style: none;
 }
 
+/* --------------Секции---------------- */
+
 /* Общие оформление заголовков в секциях */
 
 .text-title {
 	color: var(--primery-text-color);
+	text-align: center;
 }
+
+.text-paragraf {
+	color: var(--secondary-text-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+/* Общие оформление текста в секциях */
 
 /* ------------HEADER------------- */
 .header-hover_focus:hover,
@@ -79,6 +92,7 @@ body {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.4;
+	text-align: center;
 }
 
 /* hover - применяеться к любым элементам

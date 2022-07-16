@@ -102,7 +102,35 @@ list-style: none;
 
 }
 
-8. создаем стили для интерактивных кнопок (фильтра):
+8. Оформляем заголовки в секциях
+
+в html:
+
+<h2 class="text-title">заголовок</h2>
+
+в css:
+
+color: var(--primery-text-color);
+
+text-align: center;
+
+9. Оформляем текст в секциях:
+
+в html:
+
+<p class="text-paragraf">
+
+в css:
+
+.text-paragraf
+
+{
+
+color: var(--secondary-text-color);
+
+}
+
+9. создаем стили для интерактивных кнопок (фильтра):
 
 в css:
 
@@ -177,6 +205,10 @@ font-size: 44px;
 Задаем line-height из Фигмы, но используем множитель:
 
 line-height: 1.4; (line-height: 60px делим на font-size: 44px = 1.4)
+
+Размещяем по центру:
+
+text-align: center;
 
 10. Создаем кнопку "Заказать услугу":
 
