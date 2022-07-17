@@ -78,6 +78,33 @@ a {
 }
 /* ---------------------HEADER-LOGO---------------- */
 
+.logoblue {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--inter-color);
+}
+
+.logoblack {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: #000000;
+}
+
+.logowhithe {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--fon-header-color);
+}
+
 /* ---------------------HEADER-NAV----------------- */
 
 .site-nav:hover,
