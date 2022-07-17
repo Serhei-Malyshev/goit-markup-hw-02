@@ -13,6 +13,7 @@
 /* --------------------BODY------------------------ */
 
 body {
+	color: var(--primery-text-color);
 	background-color: #e5e5e5;
 	font-family: "Raleway", sans-serif;
 	font-family: "Roboto", sans-serif;
@@ -48,6 +49,9 @@ a {
 .button {
 	color: var(--inter-color);
 	background: var(--fon-color);
+}
+.button-curs {
+	cursor: pointer;
 }
 
 .button-hover:hover {
@@ -96,7 +100,7 @@ a {
 	color: #000000;
 }
 
-.logowhithe {
+.logowhite {
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
@@ -173,7 +177,7 @@ a {
 
 	color: #ffffff;
 }
-.footer-contact-color {
+.cont-text-style {
 	color: var(--footer-text-color);
 	font-family: "Roboto";
 	font-style: normal;
@@ -181,5 +185,11 @@ a {
 	font-size: 14px;
 	line-height: 1.72;
 }
+
+.cont-text-media:hover,
+.cont-text-media:focus {
+	color: var(--inter-color);
+}
+
 /* hover - применяеться к любым элементам
 focus и active - только к интерактивным (кнопки, ссылки) */
