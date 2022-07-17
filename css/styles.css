@@ -60,6 +60,14 @@ a {
 	background-color: var(--fon-button-color);
 }
 .button.secondary {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
 	color: var(--fon-color);
 	background-color: var(--inter-color);
 }
