@@ -1,31 +1,13 @@
-/* ----------------------------палитра цветов ----------------------------*/
-
-/* Основной цвет текста - #212121
-Вторичный цвет текста - #757575 
-Основной цвет фона - #E5E5E5
-Вторичный цвет фона - #FFFFFF
-Основной интерактивный цвет - #2196F3 
-Цвет HERO и футера - #2F303A 
-Цвет кнопок фильтра - #F5F4FA */
-
-/* --------------------------Проведенные работы: --------------------------*/
-/* создание css */
-/* задаем общие шрифты */
-/* Убираем точки (маркеры <ul>) */
-/* Создаем кастомные стили - :root */
-/* создаем стили кнопок */
-
-/* --------------:ROOT--------------- */
+/* ---------------------PAINT---------------------- */
 :root {
 	--primery-text-color: #212121;
 	--secondary-text-color: #757575;
-	--title-text-color: #212121;
-	--inter-text-color: #2196f3;
-	--fon-color: #ffffff;
-	--hero-fon-color: #2f303a;
-	--footer-fon-color: #2f303a;
+	--inter-color: #2196f3;
+	--fon-color: #e5e5e5;
+	--secondary-fon-color: #2f303a;
 	--footer-text-color: rgba(255, 255, 255, 0.6);
 	--fon-button-color: #f5f4fa;
+	--fon-header-color: #ffffff;
 }
 
 /* --------------BODY--------------- */
@@ -35,7 +17,12 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-family: "Roboto", sans-serif;
 }
-/* убираем маркеры */
+
+a {
+	text-decoration: none;
+}
+/* ------------убираем маркеры ----------*/
+
 .list {
 	list-style: none;
 }
@@ -49,61 +36,75 @@ body {
 	text-align: center;
 }
 
+/* Общие оформление текста в секциях */
+
 .text-paragraf {
 	color: var(--secondary-text-color);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
 }
-
-/* Общие оформление текста в секциях */
-
-/* ------------HEADER------------- */
-.header-hover_focus:hover,
-.header-hover_focus:focus {
-	color: #000000;
-}
-.header-hover_focus:active {
-	color: #757575;
-}
-
-/* кнопки */
+/* ---------------------PAINT---------------------- */
+/* ---------------------BUTTON--------------------- */
 .button {
-	color: var(--inter-text-color);
+	color: var(--inter-color);
 	background: var(--fon-color);
 }
 
 .button-hover:hover {
 	color: var(--fon-color);
-	background: var(--inter-text-color);
+	background: var(--inter-color);
 }
 
 .button.primery {
-	color: var(--inter-text-color);
+	color: var(--inter-color);
 	background-color: var(--fon-button-color);
 }
 .button.secondary {
 	color: var(--fon-color);
-	background-color: var(--inter-text-color);
+	background-color: var(--inter-color);
+}
+
+/* ---------------------HEADER-GENERAL------------- */
+.fon-header {
+	background-color: var(--fon-header-color);
+}
+/* ---------------------HEADER-LOGO---------------- */
+
+/* ---------------------HEADER-NAV----------------- */
+
+.site-nav:hover,
+.site-nav:focus {
+	color: var(--inter-color);
+}
+.site-nav:active {
+	color: #757575;
+}
+.site-nav.current {
+	color: #000000;
+}
+/* ---------------------HEADER-CONTACT------------- */
+
+.col-text-contact {
+	color: var(--primery-text-color);
 }
 
 /* ----------------------HERO---------------------- */
 
 .title-text-hero {
 	color: #ffffff;
-	font-family: "Roboto";
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.4;
 	text-align: center;
 }
 .fon-hero {
-	background-color: var(--hero-fon-color);
+	background-color: var(--secondary-fon-color);
 }
 
 /* -------------FOOTER------------ */
 .footer-fon {
-	background-color: var(--footer-fon-color);
+	background-color: var(--secondary-fon-color);
 }
 
 /* hover - применяеться к любым элементам

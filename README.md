@@ -12,69 +12,31 @@
 
 </head>
 
-2. создание палитры цветов текста:
+2. создание палитры цветов:
 
-Основной цвет текста - #212121
+:root {
 
-Вторичный цвет текста - #757575
+    --primery-text-color: #212121;
 
-Цвет текста в Футере с прозрачностью - color: rgba(255, 255, 255, 0.6);
+    --secondary-text-color: #757575;
 
-3. создание палитры цветов сайта:
+    --inter-color: #2196f3;
 
-Основной цвет фона - #E5E5E5
+    --fon-color: #e5e5e5;
 
-Цвет фона шапки - #FFFFFF
+    --secondary-fon-color: #2f303a;
 
-Цвет фона футера - #2F303A
+    --footer-text-color: rgba(255, 255, 255, 0.6);
 
-Основной интерактивный цвет - #2196F3
+    --fon-button-color: #f5f4fa;
 
-4. создание списка стилей текста
-
-Roboto - 400, 500, 700, 900 Raleway - 700
-
-5. задаем общие шрифты в index.html <head> и body (css) с сайта https://fonts.google.com/
-
-в html:
-
- <head>:
-
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
-
-</head>
-
-в css:
-
-body {
-
-    background-color: #e5e5e5;
-
-    font-family: "Raleway", sans-serif;
-
-    font-family: "Roboto", sans-serif;}
-
-6. Создаем :root - кастомные стили в css:
-
-в css (1):
-
-:root
-
-{
-
---name-text-color: #000000;
-
---name-background-color: #000000;
-
---name-interface-color: #000000;
+    --fon-header-color: #ffffff;
 
 }
 
-в css (2):
+используем их:
+
+в css:
 
 .element
 
@@ -88,9 +50,37 @@ color: var(--name-element-color);
 
 class="element"
 
-7. Убираем точки (маркеры <ul>):
+4. Создаем список стилей текста и устанавливаем их с сайта https://fonts.google.com/
 
-в <head>:
+Roboto - 400, 500, 700, 900 Raleway - 700
+
+в html:
+
+<head>:
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+
+</head>
+
+в css:
+
+body
+
+{
+
+font-family: "Raleway", sans-serif;
+
+font-family: "Roboto", sans-serif;
+
+}
+
+5. Убираем точки (маркеры <ul>):
+
+в html <head>:
 
 class="list"
 
@@ -104,7 +94,67 @@ list-style: none;
 
 }
 
-8. Оформляем заголовки в секциях
+6. Убираем подчеркиванние ссылок для всех страниц:
+
+в css:
+
+a
+
+{ text-decoration: none;
+
+}
+
+7. Задаем цвет фона в шапке:
+
+в css:
+
+.fon-header
+
+{
+
+background-color: var(--fon-header-color);
+
+}
+
+в html:
+
+<header class="fon-header">
+
+8. Изменяем цвет ссылки текущей страницы.
+
+Добавляем к стилям ссылки текущей страницы .current елемент:
+
+в css:
+
+.site-nav.current
+
+{
+
+    color: #000000;
+
+}
+
+в html:
+
+<a href="./index.html" class="site-nav current">Студия</a></li>
+
+<a href="./portfolio.html" class="site-nav current">Портфолио</a></li>
+
+9. Меняем цвет ссылок контактов:
+
+в css:
+
+.col-text-contact {
+
+color: var(--primery-text-color);
+
+в html:
+
+<a href="mailto:info@devstudio.com" target="_blank" class="site-nav col-text-contact">info@devstudio.com</a>
+
+<a href="tel:+380961111111" target="_blank" class="site-nav col-text-contact">+38 096 111 11 11</a>
+
+11. Оформляем заголовки в секциях
 
 в html:
 
@@ -144,7 +194,7 @@ line-height: 1.7;
 
 {
 
-color: var(--inter-text-color);
+color: var(--inter-color);
 
 background: var(--fon-color);
 
@@ -156,7 +206,7 @@ background: var(--fon-color);
 
 color: var(--fon-color);
 
-background: var(--inter-text-color);
+background: var(--inter-color);
 
 }
 
@@ -164,7 +214,7 @@ background: var(--inter-text-color);
 
 {
 
-color: var(--inter-text-color);
+color: var(--inter-color);
 
 background-color: var(--fon-button-color);
 
@@ -176,7 +226,7 @@ background-color: var(--fon-button-color);
 
 color: var(--fon-color);
 
-background-color: var(--inter-text-color);
+background-color: var(--inter-color);
 
 }
 
@@ -232,7 +282,7 @@ text-align: center;
 
 {
 
-background-color: var(--hero-fon-color);
+background-color: var(--secondary-fon-color);
 
 }
 
@@ -252,6 +302,6 @@ background-color: var(--hero-fon-color);
 
 {
 
-background-color: var(--footer-fon-color);
+background-color: var(--secondary-fon-color);
 
 }
