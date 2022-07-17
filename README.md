@@ -50,7 +50,7 @@ color: var(--name-element-color);
 
 class="element"
 
-4. Создаем список стилей текста и устанавливаем их с сайта https://fonts.google.com/
+3. Создаем список стилей текста и устанавливаем их с сайта https://fonts.google.com/
 
 Roboto - 400, 500, 700, 900 Raleway - 700
 
@@ -78,7 +78,7 @@ font-family: "Roboto", sans-serif;
 
 }
 
-5. Убираем точки (маркеры <ul>):
+4. Убираем точки (маркеры <ul>):
 
 в html <head>:
 
@@ -94,7 +94,7 @@ list-style: none;
 
 }
 
-6. Убираем подчеркиванние ссылок для всех страниц:
+5. Убираем подчеркиванние ссылок для всех страниц:
 
 в css:
 
@@ -104,7 +104,7 @@ a
 
 }
 
-7. Задаем цвет фона в шапке:
+6. Задаем цвет фона в шапке:
 
 в css:
 
@@ -120,7 +120,7 @@ background-color: var(--fon-header-color);
 
 <header class="fon-header">
 
-8. Изменяем цвет ссылки текущей страницы.
+7. Изменяем цвет ссылки текущей страницы.
 
 Добавляем к стилям ссылки текущей страницы .current елемент:
 
@@ -140,7 +140,7 @@ background-color: var(--fon-header-color);
 
 <a href="./portfolio.html" class="site-nav current">Портфолио</a></li>
 
-9. Меняем цвет ссылок контактов:
+8. Меняем цвет ссылок контактов в шапке:
 
 в css:
 
@@ -154,7 +154,55 @@ color: var(--primery-text-color);
 
 <a href="tel:+380961111111" target="_blank" class="site-nav col-text-contact">+38 096 111 11 11</a>
 
-11. Оформляем заголовки в секциях
+Меняем цвет ссылок карты и контактов в футере:
+
+в css:
+
+.footer-maps-color
+
+{
+
+font-family: "Roboto";
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 1.72;
+
+color: #ffffff;
+
+}
+
+.footer-contact-color
+
+{ color: var(--footer-text-color);
+
+font-family: "Roboto";
+
+font-style: normal;
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height: 1.72;
+
+}
+
+в html:
+
+<a href="https://goo.gl/maps/JzSsFaJVBJ5db8CR7" target="_blank" class="footer-maps-color">
+
+г. Киев, пр-т Леси Украинки, 26</a>
+
+<a href="mailto:info@devstudio.com" target="_blank" class="footer-contact-color">info@devstudio.com</a>
+
+<a href="tel:+380961111111" target="_blank" class="footer-contact-color">+38 096 111 11 11</a>
+
+9. Оформляем заголовки в секциях
 
 в html:
 
@@ -166,7 +214,7 @@ color: var(--primery-text-color);
 
 text-align: center;
 
-9. Оформляем текст в секциях:
+10. Оформляем текст в секциях:
 
 в html:
 
@@ -186,7 +234,7 @@ line-height: 1.7;
 
 }
 
-9. создаем стили для интерактивных кнопок (фильтра):
+11. создаем стили для интерактивных кнопок (фильтра):
 
 в css:
 
@@ -240,7 +288,7 @@ background-color: var(--inter-color);
 
 <button type="button" class="button secondary">Неактивная кнопка</button>
 
-9. Работаем с блоком HERO отдельно:
+12. Работаем с блоком HERO отдельно:
 
 9.1 Задаем стиль текста заголовка:
 
@@ -290,7 +338,7 @@ background-color: var(--secondary-fon-color);
 
 <button type="button" class="button primary">Активная кнопка</button>
 
-11. Изменяем фон футера:
+13. Изменяем фон футера:
 
 в html:
 
