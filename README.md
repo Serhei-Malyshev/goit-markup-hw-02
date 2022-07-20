@@ -78,7 +78,17 @@ font-family: "Roboto", sans-serif;
 
 }
 
-4. Убираем точки (маркеры <ul>):
+4. Создаем разметку в css:
+
+/_ ---------------------HEADER-GENERAL------------- _/
+
+/_ ----------------------HERO---------------------- _/
+
+/_ ------------SECTION-Наша команда-Team----------- _/
+
+/_ ---------------------FOOTER--------------------- _/
+
+5. Убираем точки (маркеры <ul>):
 
 в html <head>:
 
@@ -104,7 +114,87 @@ a
 
 }
 
-6. Задаем цвет фона в шапке:
+6. Cтавим заглушки # на ссылки, которые не используем:
+
+<li><a href="#" class="site-nav">Контакты</a></li>
+
+7. Оформляем логотип WebStudio:
+
+Оформляем часть слова "Studio":
+
+Обворачеваем в <span>Studio</span> и создаем стиль в css для хэдера и футера:
+
+в html:
+
+<a href="./index.html" lang="en" class="">Web<span class="logoblack">Studio</span></a>
+
+<a href="./index.html" lang="en" class="">Web<span class="logowhite">Studio</span></a>
+
+в css:
+
+.logoblack
+
+{
+
+    font-family: "Raleway";
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 1.19;
+
+    color: #000000;
+
+}
+
+.logowhite
+
+{
+
+font-family: "Raleway";
+
+font-style: normal;
+
+font-weight: 700; font-size: 26px;
+
+line-height: 1.19;
+
+color: #ffffff;
+
+}
+
+Оформляем часть слова "Web":
+
+в html:
+
+<a href="./index.html" lang="en" class="logoblue">Web<span class="logoblack">Studio</span></a>
+
+<a href="./index.html" lang="en" class="logoblue">Web<span class="logowhite">Studio</span></a>
+
+в css:
+
+.logoblue
+
+{
+
+    font-family: "Raleway";
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    font-size: 26px;
+
+    line-height: 1.19;
+
+    color: #2196f3;
+
+}
+
+8. Задаем цвет фона в шапке:
 
 в css:
 
@@ -234,7 +324,7 @@ line-height: 1.7;
 
 }
 
-11. создаем стили для интерактивных кнопок (фильтра):
+11. создаем стили для фильтра (интерактивных кнопок) и курсора:
 
 в css:
 
@@ -278,15 +368,21 @@ background-color: var(--inter-color);
 
 }
 
+.button-curs изменение курсора https://developer.mozilla.org/ru/docs/Web/CSS/cursor
+
+{ cursor: pointer;
+
+}
+
 в html:
 
 <button type="button" class="button">Кнопка с общим стилем</button>
 
-<button type="button" class="button button-hover">Кнопка с общим стилем и выделением при наводке</button></li>
+<button type="button" class="button button-hover button-curs">Кнопка с общим стилем и выделением при наводке</button></li>
 
-<button type="button" class="button primary">Активная кнопка</button>
+<button type="button" class="button primary button-curs">Активная кнопка</button>
 
-<button type="button" class="button secondary">Неактивная кнопка</button>
+<button type="button" class="button secondary button-curs">Неактивная кнопка</button>
 
 12. Работаем с блоком HERO отдельно:
 

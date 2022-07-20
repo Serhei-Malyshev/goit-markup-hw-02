@@ -1,26 +1,32 @@
-/* ---------------------PAINT---------------------- */
+/* ------------------PAINT-ROOT-------------------- */
 :root {
 	--primery-text-color: #212121;
 	--secondary-text-color: #757575;
 	--inter-color: #2196f3;
-	--fon-color: #e5e5e5;
+	--fon-color: #ffffff;
 	--secondary-fon-color: #2f303a;
 	--footer-text-color: rgba(255, 255, 255, 0.6);
 	--fon-button-color: #f5f4fa;
 	--fon-header-color: #ffffff;
 }
 
+/* ------------------PAINT------------------------- */
+
+/*  --primery-text-color: #212121;
+	--secondary-text-color: #757575;
+	--inter-color: #2196f3;
+	--fon-color: #e5e5e5;
+	--secondary-fon-color: #2f303a;
+	--footer-text-color: rgba(255, 255, 255, 0.6);
+	--fon-button-color: #f5f4fa;
+	--fon-header-color: #ffffff; */
+
 /* --------------------BODY------------------------ */
 
 body {
-	color: var(--primery-text-color);
-	background-color: #e5e5e5;
-	font-family: "Raleway", sans-serif;
+	color: #212121;
+	background-color: #ffffff;
 	font-family: "Roboto", sans-serif;
-}
-/* ------------убираем подчеркивание----------------*/
-a {
-	text-decoration: none;
 }
 
 /* --------------убираем маркеры--------------------*/
@@ -29,18 +35,15 @@ a {
 	list-style: none;
 }
 
-/* --Общие оформление заголовков в секциях----------*/
+/* -----------------убираем_подчеркивание-----------*/
 
-.text-title {
-	color: var(--primery-text-color);
-	text-align: center;
+.link {
+	text-decoration: none;
 }
-
 /* -----Общие оформление текста в секциях-----------*/
 
-.text-paragraf {
+.site-section-text {
 	color: var(--secondary-text-color);
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
 }
@@ -49,8 +52,6 @@ a {
 .button {
 	color: var(--inter-color);
 	background: var(--fon-color);
-}
-.button-curs {
 	cursor: pointer;
 }
 
@@ -65,22 +66,19 @@ a {
 }
 .button.secondary {
 	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
 	display: flex;
 	align-items: center;
 	text-align: center;
-	color: var(--fon-color);
-	background-color: var(--inter-color);
+	color: #ffffff;
+	background-color: #2196f3;
 }
 
-/* ---------------------HEADER-GENERAL------------- */
-.fon-header {
-	background-color: var(--fon-header-color);
-}
-/* ---------------------HEADER-LOGO---------------- */
+/* ---------------------HEADER-GENERAL-------------- */
+
+/* ----------------HEADER-FOOTER-LOGO--------------- */
 
 .logoblue {
 	font-family: "Raleway";
@@ -88,7 +86,7 @@ a {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: var(--inter-color);
+	color: #2196f3;
 }
 
 .logoblack {
@@ -106,7 +104,7 @@ a {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: var(--fon-header-color);
+	color: #ffffff;
 }
 
 /* ---------------------HEADER-NAV----------------- */
@@ -139,20 +137,34 @@ a {
 .fon-hero {
 	background-color: var(--secondary-fon-color);
 }
-/* ---------------------SECTION-Особенности-------- */
+/* --------SECTION-Особенности-Peculiarities------- */
 
-.title-osobennosti {
+.peculiarities-sub_title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 }
-/* ---------------------SECTION-Наша команда------- */
 
-.title-komanda {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.19;
-	color: var(--primery-text-color);
+/* ---SECTION-Чем_мы_занимаемся-What_are_we_doing-- */
+
+.What_are_we_doing-title {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17px;
+	text-align: center;
+	color: #212121;
+}
+
+/* ------------SECTION-Наша команда-Team----------- */
+
+.team_title {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17px;
+	text-align: center;
+	color: #212121;
 }
 
 /* ---------------------SECTION-Портфолио---------- */
@@ -168,22 +180,20 @@ a {
 .footer-fon {
 	background-color: var(--secondary-fon-color);
 }
-.footer-maps-color {
+.footer-maps-style {
 	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.72;
+	font-style: normal;
 
 	color: #ffffff;
 }
-.cont-text-style {
-	color: var(--footer-text-color);
+.footer-contact-style {
+	color: rgba(255, 255, 255, 0.6);
 	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.72;
+	font-style: normal;
 }
 
 .cont-text-media:hover,
