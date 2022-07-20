@@ -43,37 +43,36 @@ body {
 /* -----Общие оформление текста в секциях-----------*/
 
 .site-section-text {
-	color: var(--secondary-text-color);
+	color: #757575;
 	font-size: 14px;
 	line-height: 1.7;
 }
 
 /* ---------------------BUTTON--------------------- */
-.button {
-	color: var(--inter-color);
-	background: var(--fon-color);
+.site-button {
+	color: #2196f3;
+	background: #ffffff;
 	cursor: pointer;
 }
 
-.button-hover:hover {
-	color: var(--fon-color);
-	background: var(--inter-color);
-}
+/* ----------------BUTTON-FILTER------------------- */
 
-.button.primery {
-	color: var(--inter-color);
-	background-color: var(--fon-button-color);
-}
-.button.secondary {
-	font-family: "Roboto";
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.88;
-	display: flex;
-	align-items: center;
+.filter_super_button {
 	text-align: center;
 	color: #ffffff;
 	background-color: #2196f3;
+	cursor: pointer;
+}
+
+.filter_button {
+	text-align: center;
+	background-color: #f5f4fa;
+	cursor: pointer;
+}
+
+.filter_button:hover {
+	color: #ffffff;
+	background: #2196f3;
 }
 
 /* ---------------------HEADER-GENERAL-------------- */
@@ -107,27 +106,56 @@ body {
 	color: #ffffff;
 }
 
-/* ---------------------HEADER-NAV----------------- */
+/* ----------------SITE-HEADER-NAV----------------- */
 
-.site-nav:hover,
-.site-nav:focus {
-	color: var(--inter-color);
+.site-header-nav {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	color: #212121;
 }
-.site-nav:active {
-	color: var(--secondary-text-color);
+
+.site-header-nav:hover,
+.site-header-nav:focus {
+	color: #2196f3;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
-.site-nav.current {
-	color: #000000;
+.site-heder-nav:active {
+	color: #757575;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.site-header-nav.current {
+	color: #2196f3;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 /* ---------------------HEADER-CONTACT------------- */
 
-.col-text-contact {
-	color: var(--primery-text-color);
+.site-header-contact {
+	color: #212121;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14px;
+}
+
+.site-hider-contact-nav:hover {
+	color: #2196f3;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14px;
 }
 
 /* ----------------------HERO---------------------- */
 
-.title-text-hero {
+.hero-title {
 	color: #ffffff;
 	font-weight: 900;
 	font-size: 44px;
@@ -135,7 +163,21 @@ body {
 	text-align: center;
 }
 .fon-hero {
-	background-color: var(--secondary-fon-color);
+	background-color: #2f303a;
+}
+/* ----------------BUTTON-HERO--------------------- */
+
+.hero_super_button {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	background-color: #2196f3;
+	cursor: pointer;
 }
 /* --------SECTION-Особенности-Peculiarities------- */
 
@@ -178,14 +220,13 @@ body {
 
 /* ---------------------FOOTER--------------------- */
 .footer-fon {
-	background-color: var(--secondary-fon-color);
+	background-color: #2f303a;
 }
 .footer-maps-style {
 	font-family: "Roboto";
 	font-size: 14px;
 	line-height: 1.72;
 	font-style: normal;
-
 	color: #ffffff;
 }
 .footer-contact-style {
@@ -198,7 +239,7 @@ body {
 
 .cont-text-media:hover,
 .cont-text-media:focus {
-	color: var(--inter-color);
+	color: #2196f3;
 }
 
 /* hover - применяеться к любым элементам

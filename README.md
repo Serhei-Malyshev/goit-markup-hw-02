@@ -104,21 +104,29 @@ list-style: none;
 
 }
 
-5. Убираем подчеркиванние ссылок для всех страниц:
+5. Убираем подчеркиванние ссылок:
 
 в css:
 
-a
+.link
 
-{ text-decoration: none;
+{
+
+    text-decoration: none;
 
 }
+
+в html:
+
+<li><a href="./index.html" class="site-header-nav current link">Студия</a></li>
 
 6. Cтавим заглушки # на ссылки, которые не используем:
 
 <li><a href="#" class="site-nav">Контакты</a></li>
 
-7. Оформляем логотип WebStudio:
+8. Работаем с блоком header:
+
+9. Оформляем логотип WebStudio:
 
 Оформляем часть слова "Studio":
 
