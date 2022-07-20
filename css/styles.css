@@ -26,6 +26,7 @@
 body {
 	color: #212121;
 	background-color: #ffffff;
+	font-style: normal;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -48,38 +49,9 @@ body {
 	line-height: 1.7;
 }
 
-/* ---------------------BUTTON--------------------- */
-.site-button {
-	color: #2196f3;
-	background: #ffffff;
-	cursor: pointer;
-}
-
-/* ----------------BUTTON-FILTER------------------- */
-
-.filter_super_button {
-	text-align: center;
-	color: #ffffff;
-	background-color: #2196f3;
-	cursor: pointer;
-}
-
-.filter_button {
-	text-align: center;
-	background-color: #f5f4fa;
-	cursor: pointer;
-}
-
-.filter_button:hover {
-	color: #ffffff;
-	background: #2196f3;
-}
-
-/* ---------------------HEADER-GENERAL-------------- */
-
 /* ----------------HEADER-FOOTER-LOGO--------------- */
 
-.logoblue {
+.logo_blue {
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
@@ -88,7 +60,7 @@ body {
 	color: #2196f3;
 }
 
-.logoblack {
+.logo_black {
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
@@ -97,7 +69,7 @@ body {
 	color: #000000;
 }
 
-.logowhite {
+.logo_white {
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
@@ -152,7 +124,6 @@ body {
 	font-size: 14px;
 	line-height: 1.14px;
 }
-
 /* ----------------------HERO---------------------- */
 
 .hero-title {
@@ -161,14 +132,14 @@ body {
 	font-size: 44px;
 	line-height: 1.4;
 	text-align: center;
+	text-transform: uppercase;
 }
-.fon-hero {
+.hero-fon {
 	background-color: #2f303a;
 }
-/* ----------------BUTTON-HERO--------------------- */
+/* ----------------HERO-BUTTON--------------------- */
 
 .hero_super_button {
-	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -179,45 +150,95 @@ body {
 	background-color: #2196f3;
 	cursor: pointer;
 }
-/* --------SECTION-Особенности-Peculiarities------- */
+/* --------PECURIALITIES-SECTION-ОСОБЕННОСТИ------- */
 
 .peculiarities-sub_title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
+	text-transform: uppercase;
 }
 
-/* ---SECTION-Чем_мы_занимаемся-What_are_we_doing-- */
+.peculiarities-background {
+	background-color: #f5f4fa;
+}
+
+/* --WHAT_ARE_WE_DOING-SECTION-ЧЕМ_МЫ_ЗАНИМАЕМСЯ--- */
 
 .What_are_we_doing-title {
-	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.17px;
+	line-height: 1.17;
 	text-align: center;
 	color: #212121;
 }
+.What_are_we_doing-background {
+	background-color: #f5f4fa;
+}
 
-/* ------------SECTION-Наша команда-Team----------- */
+/* ----------TEAM-SECTION-НАША-КОМАНДА------------- */
 
 .team_title {
-	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.17px;
+	line-height: 1.17;
 	text-align: center;
 	color: #212121;
 }
 
-/* ---------------------SECTION-Портфолио---------- */
+.team-sub_title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	color: #212121;
+}
 
-.title-portfolio {
+.team_background {
+	background-color: #f5f4fa;
+}
+
+/* --------PORTFOLIO-SECTION-Портфолио------------- */
+
+.portfolio-background {
+	background-color: #e5e5e5;
+}
+.portfolio-card-background {
+	background-color: #ffffff;
+}
+
+.portfolio-title {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
-	color: var(--primery-text-color);
+	color: #212121;
+}
+/* -----PORTFOLIO-FILTER-BUTTON-------------------- */
+
+.filter_super_button {
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	color: #ffffff;
+	background-color: #2196f3;
+	cursor: pointer;
 }
 
+.filter_button {
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	color: #212121;
+	background-color: #f5f4fa;
+	cursor: pointer;
+}
+
+.filter_button_mod:hover,
+.filter_button_mod:focus {
+	color: #ffffff;
+	background: #2196f3;
+}
 /* ---------------------FOOTER--------------------- */
 .footer-fon {
 	background-color: #2f303a;
