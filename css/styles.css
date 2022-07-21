@@ -112,13 +112,14 @@ body {
 /* ---------------------HEADER-CONTACT------------- */
 
 .site-header-contact {
-	color: #212121;
+	color: #757575;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14px;
 }
 
-.site-hider-contact-nav:hover {
+.site-hider-contact-nav:hover,
+.site-hider-contact-nav:focus {
 	color: #2196f3;
 	font-weight: 500;
 	font-size: 14px;
@@ -159,10 +160,6 @@ body {
 	text-transform: uppercase;
 }
 
-.peculiarities-background {
-	background-color: #f5f4fa;
-}
-
 /* --WHAT_ARE_WE_DOING-SECTION-ЧЕМ_МЫ_ЗАНИМАЕМСЯ--- */
 
 .What_are_we_doing-title {
@@ -193,15 +190,16 @@ body {
 	color: #212121;
 }
 
-.team_background {
+.team-background {
 	background-color: #f5f4fa;
+}
+
+.team-card-background {
+	background-color: #ffffff;
 }
 
 /* --------PORTFOLIO-SECTION-Портфолио------------- */
 
-.portfolio-background {
-	background-color: #e5e5e5;
-}
 .portfolio-card-background {
 	background-color: #ffffff;
 }
@@ -215,6 +213,7 @@ body {
 /* -----PORTFOLIO-FILTER-BUTTON-------------------- */
 
 .filter_super_button {
+	font-family: "Roboto";
 	text-align: center;
 	font-weight: 500;
 	font-size: 16px;
@@ -225,6 +224,7 @@ body {
 }
 
 .filter_button {
+	font-family: "Roboto";
 	text-align: center;
 	font-weight: 500;
 	font-size: 16px;
@@ -234,8 +234,8 @@ body {
 	cursor: pointer;
 }
 
-.filter_button_mod:hover,
-.filter_button_mod:focus {
+.filter-button-mod:hover,
+.filter-button-mod:focus {
 	color: #ffffff;
 	background: #2196f3;
 }
