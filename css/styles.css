@@ -1,0 +1,134 @@
+/* global style */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+/* end-global-style */
+
+/* 
+
+Font-size em = Font-size px / Base Font-size px
+
+Letter-spacing em = (Letter-spasing % / 100) x Font-size em
+
+/* logo */
+
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+}
+
+/* end-logo */
+
+/* section-header */
+
+.logo-header-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-weight: 700;
+  color: #434455;
+  text-decoration: none;
+}
+
+.nav-item a {
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: #404bbf;
+}
+
+.address-link {
+  font-style: normal;
+  color: #434455;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* end-section-header */
+
+/* section-hero */
+
+.section-hero {
+  background-color: #2e2f42;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.07em;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #fff;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* end-section-hero */
+
+/* section-footer */
+
+.section-footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.logo-footer-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.033em;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+/* end-section-footer */
