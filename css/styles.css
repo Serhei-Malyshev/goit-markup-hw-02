@@ -29,6 +29,20 @@ p {
   letter-spacing: 0.03em;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* end-global-style */
 
 /* Font-size em = Font-size px / Base Font-size px
@@ -88,7 +102,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /* header-section-end */
 
-/* hero-section */
+/* hero-section-start */
 
 .hero {
   background-color: #2e2f42;
@@ -117,9 +131,21 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   background-color: #404bbf;
 }
 
-/* end-section-hero */
+/* hero-section-end */
 
-/* section-footer */
+/* advatages-section-start */
+
+.advantages__tittle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* advatages-section-end */
+
+/* section-footer-start */
 
 .section-footer {
   background-color: #2e2f42;
@@ -136,4 +162,4 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-decoration: none;
 }
 
-/* end-section-footer */
+/* footer-section-end */
