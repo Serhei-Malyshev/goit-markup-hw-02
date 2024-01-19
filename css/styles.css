@@ -101,7 +101,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 }
 
 .hero__button {
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #fff;
   line-height: 1.5;
@@ -222,10 +222,10 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 .footer__logo-link {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
