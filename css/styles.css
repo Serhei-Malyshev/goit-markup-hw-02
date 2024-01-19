@@ -38,7 +38,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 /* header-section */
 /* header-section-logo */
 
-.header__logo-link {
+.header__nav-logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -49,7 +49,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-decoration: none;
 }
 
-.header__logo-web--navy-blue {
+.header__nav-logo-txt--navy-blue {
   color: #2e2f42;
 }
 
@@ -68,10 +68,13 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   color: #404bbf;
 }
 
-/* header-section-addres */
+/* header-section-address */
+
+.header__address {
+  font-style: normal;
+}
 
 .header__address-link {
-  font-style: normal;
   color: #434455;
   text-decoration: none;
   line-height: 1.5;
