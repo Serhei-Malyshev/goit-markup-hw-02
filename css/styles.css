@@ -13,17 +13,6 @@ ul {
   margin: 0;
 }
 
-h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.025em;
-}
-
-p {
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-}
-
 /* .visually-hidden {
   position: absolute;
   width: 1px;
@@ -144,7 +133,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /* advatages-section-end */
 
-/* advatages-our-team-start */
+/* our-team-section-start */
 
 .our-team {
   background-color: #f4f4fd;
@@ -160,12 +149,12 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-transform: capitalize;
 }
 
-.our-team__list {
+/* .our-team__list {
+} */
+
+.our-team__item {
   background-color: #ffffff;
 }
-
-/* .our-team__item {
-} */
 
 /* .our-team__img {
 } */
@@ -183,7 +172,46 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
-/* advatages-Our-Team-end */
+/* our-team-section-end */
+
+/* portfolio-section-start */
+
+/* .portfolio {
+} */
+
+.portfolio__tittle-section {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* .portfolio__list {
+} */
+
+/* .portfolio__item {
+} */
+
+/* .portfolio__img {
+} */
+
+.portfolio__tittle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio__txt {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* portfolio-section-end */
 
 /* section-footer-start */
 
