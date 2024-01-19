@@ -36,6 +36,7 @@ p {
 Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /* header-section */
+/* header-section-logo */
 
 .header__logo-link {
   font-family: 'Raleway', sans-serif;
@@ -52,25 +53,29 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   color: #2e2f42;
 }
 
-.header__navmenu a {
+/* header-section-navmenu */
+
+.header__navmenu-link {
   font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #434455;
+  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.header__navmenu a:hover,
-.header__navmenu a:focus {
+.header__navmenu-link:hover,
+.header__navmenu-link:focus {
   color: #404bbf;
 }
+
+/* header-section-addres */
 
 .header__address-link {
   font-style: normal;
   color: #434455;
   text-decoration: none;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header__address-link:hover,
@@ -78,15 +83,15 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   color: #404bbf;
 }
 
-/* end-section-header */
+/* header-section-end */
 
-/* section-hero */
+/* hero-section */
 
-.section-hero {
+.hero {
   background-color: #2e2f42;
 }
 
-h1 {
+.hero__tittle {
   text-align: center;
   color: #ffffff;
   font-size: 56px;
@@ -94,7 +99,7 @@ h1 {
   letter-spacing: 0.07em;
 }
 
-.hero-button {
+.hero__button {
   background-color: #4d5ae5;
   color: #fff;
   letter-spacing: 0.04em;
