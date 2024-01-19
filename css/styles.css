@@ -128,6 +128,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 }
 
 .advantages__txt {
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -213,21 +214,31 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /* portfolio-section-end */
 
-/* section-footer-start */
+/* footer-section-start */
 
-.section-footer {
+.footer {
   background-color: #2e2f42;
+}
+
+.footer__logo-link {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer__logo-link--txt-cloud {
   color: #f4f4fd;
 }
 
-.logo-footer-link {
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.033em;
-  line-height: 1.15;
-  font-weight: 700;
+.footeer__txt {
   color: #f4f4fd;
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* footer-section-end */
