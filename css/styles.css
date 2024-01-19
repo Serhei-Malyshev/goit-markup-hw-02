@@ -3,6 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 400;
   color: #434455;
   background-color: #ffffff;
 }
@@ -10,12 +11,6 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.04em;
 }
 
 h3 {
@@ -29,7 +24,7 @@ p {
   letter-spacing: 0.03em;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -41,7 +36,7 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* end-global-style */
 
@@ -109,7 +104,6 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 }
 
 .hero__tittle {
-  text-align: center;
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
@@ -143,7 +137,49 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
+.advantages__txt {
+  letter-spacing: 0.02em;
+}
+
 /* advatages-section-end */
+
+/* advatages-our-team-start */
+
+/* .our-team {
+} */
+
+.our-team__tittle-section {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* .our-team__list {
+} */
+
+/* .our-team__item {
+} */
+
+/* .our-team__img {
+} */
+
+.our-team__title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.our-team__txt {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* advatages-Our-Team-end */
 
 /* section-footer-start */
 
