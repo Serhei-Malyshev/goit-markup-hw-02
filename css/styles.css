@@ -99,18 +99,21 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.02em;
 }
 
 .hero__button {
-  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
   color: #fff;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: #404bbf;
 }
 
