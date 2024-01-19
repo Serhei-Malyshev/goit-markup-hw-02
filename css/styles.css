@@ -104,6 +104,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 }
 
 .hero__tittle {
+  text-align: center;
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
@@ -145,20 +146,23 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
 /* advatages-our-team-start */
 
-/* .our-team {
-} */
+.our-team {
+  background-color: #f4f4fd;
+}
 
 .our-team__tittle-section {
+  text-align: center;
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-/* .our-team__list {
-} */
+.our-team__list {
+  background-color: #ffffff;
+}
 
 /* .our-team__item {
 } */
