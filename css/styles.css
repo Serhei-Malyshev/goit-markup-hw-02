@@ -35,50 +35,46 @@ p {
 
 Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
-/* logo */
+/* header-section */
 
-.logo-web {
+.header__logo-link {
   font-family: 'Raleway', sans-serif;
-  color: #4d5ae5;
-}
-
-/* end-logo */
-
-/* section-header */
-
-.logo-header-link {
+  font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
   line-height: 1.17;
-  font-weight: 700;
-  color: #434455;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
-.nav-item a {
+.header__logo-web--navy-blue {
+  color: #2e2f42;
+}
+
+.header__navmenu a {
   font-weight: 500;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #434455;
+  text-decoration: none;
 }
 
-.nav-item a:hover,
-.nav-item a:focus {
+.header__navmenu a:hover,
+.header__navmenu a:focus {
   color: #404bbf;
 }
 
-.address-link {
+.header__address-link {
   font-style: normal;
   color: #434455;
   text-decoration: none;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.address-link:hover,
-.address-link:focus {
+.header__address-link:hover,
+.header__address-link:focus {
   color: #404bbf;
 }
 
