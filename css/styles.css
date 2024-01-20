@@ -13,27 +13,13 @@ ul {
   margin: 0;
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
-
 /* end-global-style */
 
 /* Font-size em = Font-size px / Base Font-size px
 
 Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 
-/* header-section */
+/** header-section */
 /* header-section-logo */
 
 .header__nav-logo-link {
@@ -84,9 +70,9 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   color: #404bbf;
 }
 
-/* header-section-end */
+/** header-section-end */
 
-/* hero-section-start */
+/** hero-section-start */
 
 .hero {
   background-color: #2e2f42;
@@ -115,9 +101,9 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   background-color: #404bbf;
 }
 
-/* hero-section-end */
+/** hero-section-end */
 
-/* advatages-section-start */
+/** advatages-section-start */
 
 .advantages__tittle {
   color: #2e2f42;
@@ -132,9 +118,9 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
-/* advatages-section-end */
+/** advatages-section-end */
 
-/* our-team-section-start */
+/** our-team-section-start */
 
 .our-team {
   background-color: #f4f4fd;
@@ -173,9 +159,9 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
-/* our-team-section-end */
+/** our-team-section-end */
 
-/* portfolio-section-start */
+/** portfolio-section-start */
 
 /* .portfolio {
 } */
@@ -212,9 +198,9 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
-/* portfolio-section-end */
+/** portfolio-section-end */
 
-/* footer-section-start */
+/** footer-section-start */
 
 .footer {
   background-color: #2e2f42;
@@ -241,4 +227,4 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
-/* footer-section-end */
+/** footer-section-end */
