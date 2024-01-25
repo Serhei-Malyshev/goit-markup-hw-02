@@ -1,5 +1,9 @@
 # Educational project GOIT Homework 2
 
+<div align="center">
+	<img src="https://raw.githubusercontent.com/Serhei-Malyshev/goit-markup-hw-02/main/images/github-readme/goit-logo-596.png" width="596"/>
+</div>
+
 ## CSS styling of designer mockup "Web Studio" without positioning and element geometry.
 
 ### live page
