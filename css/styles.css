@@ -8,9 +8,11 @@ body {
   background-color: #ffffff;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
   margin: 0;
+  padding: 0s;
 }
 
 /* end-global-style */
@@ -22,7 +24,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 /** header-section */
 /* header-section-logo */
 
-.header__nav-logo-link {
+.header__navmenu-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -33,7 +35,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-decoration: none;
 }
 
-.header__nav-logo-txt--navy-blue {
+.header__navmenu-logo--gray {
   color: #2e2f42;
 }
 
