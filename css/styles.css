@@ -138,17 +138,11 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-transform: capitalize;
 }
 
-/* .our-team__list {
-} */
-
-.our-team__item {
+.our-team__card-item {
   background-color: #ffffff;
 }
 
-/* .our-team__img {
-} */
-
-.our-team__title {
+.our-team__card-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -156,7 +150,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
-.our-team__txt {
+.our-team__card-txt {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -164,9 +158,6 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
 /** our-team-section-end */
 
 /** portfolio-section-start */
-
-/* .portfolio {
-} */
 
 .portfolio__tittle-section {
   color: #2e2f42;
@@ -178,16 +169,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-transform: capitalize;
 }
 
-/* .portfolio__list {
-} */
-
-/* .portfolio__item {
-} */
-
-/* .portfolio__img {
-} */
-
-.portfolio__tittle {
+.portfolio__card-tittle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -195,7 +177,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   letter-spacing: 0.02em;
 }
 
-.portfolio__txt {
+.portfolio__card-txt {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -219,7 +201,7 @@ Letter-spacing em = (Letter-spasing % / 100) x Font-size em */
   text-decoration: none;
 }
 
-.footer__logo-link--txt-cloud {
+.footer__logo--white {
   color: #f4f4fd;
 }
 
