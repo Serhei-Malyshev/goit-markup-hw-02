@@ -5,7 +5,7 @@
 3. Не желаете поддерживать контент или автора, на которого вы ссылаетесь ( nofollow )
 
 
-Расчет em: 
+Расчет em
 
 Font-size em = Font-size px / Base Font-size px
 
