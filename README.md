@@ -21,4 +21,3 @@ https://github.com/Serhei-Malyshev/goit-markup-hw-02/blob/main/images/mockup-jpg
 * https://github.com/Serhei-Malyshev/goit-markup-hw-04
 * https://github.com/Serhei-Malyshev/goit-markup-hw-05
 * https://github.com/Serhei-Malyshev/goit-markup-hw-05-modal-window
-* https://github.com/Serhei-Malyshev/goit-markup-hw-06
